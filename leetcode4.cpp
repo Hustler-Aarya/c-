@@ -20,6 +20,7 @@ class Solution {
                         ans[i]=nums2[j];
                         break;
                     }
+                    
                 }
             }
             return ans;
