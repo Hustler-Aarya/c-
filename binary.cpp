@@ -16,7 +16,7 @@ int binarySearch(vector<int>arr,int n,int l,int h,int target){
         }
         return -1;
     }
-
+ 
 }
 
 int main(){
