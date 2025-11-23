@@ -40,7 +40,7 @@ void mergesort(vector<int>&arr,int st,int end){
     if(st<end){
         int mid=st+(end-st)/2;
         //recursion 
-        mergesort(arr,st,mid);//left array
+        mergesort(arr,st,mid); //left array
         mergesort(arr,mid+1,end); //right array
 
         merge(arr,st,mid,end);
